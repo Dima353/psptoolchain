@@ -19,7 +19,7 @@ download_and_extract "https://ftp.gnu.org/gnu/gcc/gcc-$GCC_VERSION/gcc-$GCC_VERS
 download_and_extract "https://ftp.gnu.org/gnu/gmp/gmp-$GMP_VERSION.tar.xz" gmp-"$GMP_VERSION"
 download_and_extract "https://ftp.gnu.org/gnu/mpc/mpc-$MPC_VERSION.tar.gz" mpc-"$MPC_VERSION"
 download_and_extract "https://ftp.gnu.org/gnu/mpfr/mpfr-$MPFR_VERSION.tar.xz" mpfr-"$MPFR_VERSION"
-download_and_extract "http://isl.gforge.inria.fr/isl-$ISL_VERSION.tar.xz" isl-"$ISL_VERSION"
+download_and_extract "https://mirror.sobukus.de/files/src/isl/isl-$ISL_VERSION.tar.xz" isl-"$ISL_VERSION"
 
 ## Enter the source directory and patch the source code.
 cd gcc"$VARIANT_SUFFIX-$GCC_VERSION"
